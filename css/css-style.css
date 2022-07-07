@@ -1043,14 +1043,14 @@ p:last-child {
  **************************************/
 
 .home-slider-area {
-	min-height: 550px;
+	min-height: 500px;
 	position: relative;
 	z-index: 1;
 }
 
 .home-slider,
 .home-slider-single-item {
-	height: 550px;
+	height: 500px;
 	overflow: hidden;
 	display: block;
 }
@@ -1234,7 +1234,7 @@ p:last-child {
   overflow: hidden;
   position: relative;
   z-index: 1;
-  height: 650px;
+  height: 500px;
   background-image: url(../fonts/img-home3-bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1499,11 +1499,11 @@ ul.about-list-box li .about-list-info h3 {
 
 .consultation-area {
 	padding: 70px 0;
-	background-color: rgba(136, 116, 181, .11);
+	background-color: #5764ec;
 	position: relative;
 	z-index: 1;
 	color: #fff;
-	background: url(../images/img-banner-bg.jpg);
+	/* background: url(../assets/img/background.jpg); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -2516,7 +2516,7 @@ ul.about-list-box li .about-list-info h3 {
 
 .project-flip-box {
     position: relative;
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden; */
 	overflow: hidden;
     border-radius: 5px;
 	margin-top: 30px;
@@ -5352,7 +5352,7 @@ blockquote::after, .blockquote::after {
 	visibility: hidden;
 	-webkit-transform: translateY(50px);
 	transform: translateY(50px);
-	-webkit-transition: all .4s;
+	/* -webkit-transition: all .4s; */
 }
 
 .single-team-box:hover .team-social-icon a {
