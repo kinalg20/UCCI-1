@@ -317,6 +317,26 @@ p:last-child {
 	font-weight: 800;
 	margin: 0;
 }
+
+.btn-success{
+	background: #00599e;
+	border: none;
+    display: inline-block;
+    line-height: initial;
+    border-radius: 3px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 12px 30px;
+    position: relative;
+    z-index: 1;
+    font-size: 15px;
+    font-weight: 600;
+	transition-duration: 0.5s;
+}
+
+.btn-success:hover{
+	background: #ff5e28;
+}
 /*****************************************
  ** - 00 -  Go Top CSS
  ******************************************/
@@ -4178,11 +4198,12 @@ blockquote::after, .blockquote::after {
 
 .hire-wrapper {
 	padding: 70px 0;
-	background-color: rgba(136, 116, 181, .11);
+	background-color: #00599e;
+	opacity: 0.9;
 	position: relative;
 	z-index: 1;
 	border-radius: 5px;
-	background: url(../images/img-banner-bg.jpg);
+	/* background: url(../images/img-banner-bg.jpg); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -5586,8 +5607,6 @@ blockquote::after, .blockquote::after {
 /**************************************
  ** - 26 - Faq Page Area CSS
  **************************************/
-.faq-area {
-}
 
 .faq-accordion .accordion {
 	list-style-type: none;
