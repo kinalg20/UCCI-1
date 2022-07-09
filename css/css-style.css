@@ -6185,6 +6185,10 @@ blockquote::after,
 		width: 60%!important;
 		z-index: 999;
 	}
+
+	.mean-container a.meanmenu-reveal {
+		width: 22px!important;
+	}
 }
 
 
