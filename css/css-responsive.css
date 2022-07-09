@@ -38,14 +38,6 @@
 		margin-top: 0;
 		display: none;
 	}
-
-	.home-slider-content {
-		padding-bottom: 70px;
-	}
-
-
-
-
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.other-option {

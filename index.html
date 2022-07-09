@@ -46,7 +46,6 @@
 	<body>
 
 		<!-- Start Navbar Area -->
-		
 		<div class="navbar-area">
 			<div class="inspire-nav-top-bar d-none d-lg-block">
 				<div class="container">
@@ -76,8 +75,9 @@
 				<div class="container">
 					<div class="inspire-responsive-menu">
 						<div class="logo">
-							<a href="index.html"> <img src="images/img-logo-black.png" alt="logo">
-							</a>
+							<a class="navbar-brand" href="index.html"> <img src="images/uccilogo.png"
+								alt="logo1" class="logo1" style="width:60px;"> <img src="images/ucci-logo-update-2.png"
+								alt="logo" class="logo"> </a>
 						</div>
 					</div>
 				</div>
@@ -229,19 +229,21 @@
 		<!-- End Navbar Area -->
 		<!-- Start Home Slider Area -->
 		<div class="home-slider-area">
-			<div class="home-slider flickity-dots-absolute" data-flickity='{"bgLazyLoad"
-				: 1,"bgLazyLoad" : true,"fade" : true,"prevNextButtons" : true,"autoPlay" :
-				7000,"pauseAutoPlayOnHover" : false }' style="background: #dedede; height: 500px;">
+			<div class="home-slider py-5" data-flickity='{"bgLazyLoad"
+				: 1,"bgLazyLoad" : true,"fade" : true,"prevNextButtons" : true }' style="background: #dedede;">
 				<div class="home-slider-single-item">
 					<!-- data-flickity-bg-lazyload="assets/img/slider-1.jpg"					 -->
 					<div class="container">
-						<div class="row d-flex align-items-center">
-							<div class="col-12 col-lg-6">
-								<div class="home-slider-content">
+						<div class="row d-flex align-items-center slider-screen">
+							<div class="col-md-6 col-lg-6">
+								<div class="home-slider-content slider-content">
 									<h1 class="home-slider-title">The Best Bussiness &amp; Information</h1>
+									<!-- <h1 class="home-slider-title">The Best Bussiness &amp; Information is good technology</h1> -->
 									<div class="home-slider-description">
-										<p>We are passionate about bringing enterprise-level productivity,
-											scalability, and security to small and medium businesses.</p>
+										<p>UCCI is Southern Rajasthan's premier business association,
+											with a growing membership.
+											At present we have a member base of 569 organisations from diverse
+											sectors.</p>
 									</div>
 									<div class="home-slider-btn-box">
 										<a href="#0" class="btn btn-primary mr-15">Contact Us</a>
@@ -249,7 +251,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-12 col-lg-6">
+							<div class="col-md-6 col-lg-6">
 								<img src="assets/img/slide-ucci1.jpg" alt="" style="height:350px; object-fit: cover;">
 							</div>
 						</div>
@@ -258,9 +260,9 @@
 				<div class="home-slider-single-item">
 					<!-- data-flickity-bg-lazyload="assets/img/slider-2.jpg" -->
 					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-12">
-								<div class="home-slider-content">
+						<div class="row slider-screen">
+							<div class="col-lg-6 col-md-6">
+								<div class="home-slider-content" style="margin: 30px 0;">
 									<h1 class="home-slider-title">Udaipur Chamber Of Commerce & Industry</h1>
 									<div class="home-slider-description">
 										<p>UCCI is Southern Rajasthan's premier business association,
@@ -274,8 +276,8 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-6 col-12">
-								<img src="assets/img/slide-ucci3.jpg" alt="" style="height:350px; object-fit: cover;">
+							<div class="col-lg-6 col-md-6">
+								<img src="assets/img/slide-ucci3.jpg" alt="" style="height:350px; object-fit: cover; ">
 							</div>
 						</div>
 					</div>
@@ -283,9 +285,9 @@
 				<div class="home-slider-single-item">
 					<!-- data-flickity-bg-lazyload="assets/img/slider-3.jpg" -->
 					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-12">
-								<div class="home-slider-content">
+						<div class="row slider-screen">
+							<div class="col-lg-6 col-md-6">
+								<div class="home-slider-content" style="margin: 30px 0;">
 									<h1 class="home-slider-title">The Best Bussiness &amp; Information</h1>
 									<div class="home-slider-description">
 										<p>We are passionate about bringing enterprise-level productivity,
@@ -297,7 +299,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-6 col-12">
+							<div class="col-lg-6 col-md-6">
 								<img src="assets/img/slide-ucci2.jpg" alt="" style="height:350px; object-fit: cover;">
 							</div>
 						</div>
@@ -374,6 +376,10 @@
 		<!-- Start About Section -->
 			<section class="about-area section-padding">
 				<div class="container">
+					<div class="about-content mobile-about">
+						<h6>About Us</h6>
+						<h2>Udaipur Chamber Of Commerce & Industry</h2>
+					</div>
 					<div class="row align-items-center">
 						<div class="col-lg-6 col-md-12">
 							<div class="about-image">
@@ -382,8 +388,8 @@
 						</div>
 						<div class="col-lg-6 col-md-12">
 							<div class="about-content">
-								<h6>About Us</h6>
-								<h2>Udaipur Chamber Of Commerce & Industry</h2>
+								<h6 class="desktop-about">About Us</h6>
+								<h2 class="desktop-about">Udaipur Chamber Of Commerce & Industry</h2>
 								<p>UCCI is Southern Rajasthan's premier business association, with a
 									growing membership. At present we have a member base of 569
 									organisations from diverse sectors. All major local associations are
