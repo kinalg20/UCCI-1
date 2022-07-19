@@ -97,8 +97,8 @@
 }
 .fc-button-primary:disabled {
   color: #fff;
-  background-color: #6777ef;
-  border-color: #6777ef;
+  background-color: #00599e;
+  border-color: #00599e;
 }
 .fc-button-primary:hover {
   color: #868181;
@@ -110,13 +110,13 @@
 }
 .fc-button-primary:not(:disabled).fc-button-active {
   color: #fff;
-  background-color: #6777ef;
-  border-color: #6777ef;
+  background-color: #00599e;
+  border-color: #00599e;
 }
 .fc-button-primary:not(:disabled):active {
   color: #fff;
-  background-color: #6777ef;
-  border-color: #6777ef;
+  background-color: #00599e;
+  border-color: #00599e;
 }
 .fc-color-picker {
   list-style: none;
@@ -139,7 +139,7 @@
   background: transparent;
 }
 .fc-unthemed td.fc-today a {
-  background: #6777ef;
+  background: #00599e;
   border-radius: 50%;
   color: #fff;
   font-size: 12px;

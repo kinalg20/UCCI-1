@@ -107,7 +107,7 @@ function smallchart2() {
         show: false,
       },
     },
-    colors: ["#6777EF", "#FEB019"],
+    colors: ["#00599e", "#FEB019"],
     dataLabels: {
       enabled: false,
     },

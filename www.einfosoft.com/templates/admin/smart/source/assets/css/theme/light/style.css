@@ -252,7 +252,7 @@ h4.vew-mail-header b {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
 }
 .settingSidebar .settingPanelToggle {
-  background: #6777ef;
+  background: #00599e;
   padding: 10px 15px;
   color: #fff;
   position: absolute;
@@ -305,7 +305,7 @@ h4.vew-mail-header b {
   margin: 1px;
 }
 .settingSidebar ul.choose-theme li div.purple {
-  background: #6777ef;
+  background: #00599e;
   -webkit-box-shadow: 4px 3px 6px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 4px 3px 6px 0 rgba(0, 0, 0, 0.2);
 }
@@ -478,7 +478,7 @@ h4.vew-mail-header b {
 .theme-color a[data-theme="logo-indigo"] .head:after,
 .theme-color a[data-theme="header-indigo"] .head:before,
 .theme-color a[data-theme="header-indigo"] .head:after {
-  background: #6673fc;
+  background: #00599e;
 }
 .theme-color a[data-theme="cyan"] .cont:after,
 .theme-color a[data-theme="cyan"] .head:after,
@@ -518,7 +518,7 @@ h4.vew-mail-header b {
   background: #ffffff;
 }
 .layout-theme a[data-theme="light"] .head:after {
-  background: #6673fc;
+  background: #00599e;
 }
 
 .theme-color a .head {

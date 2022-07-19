@@ -101,7 +101,7 @@
                     <ul class="nav navbar-nav navbar-left in">
                         <li><a href="#" class="menu-toggler sidebar-toggler"></a></li>
                     </ul>
-                    <form class="search-form-opened" action="#" method="GET">
+                    <!-- <form class="search-form-opened" action="#" method="GET">
                         <div class="input-group">
                             <input type="text" class="form-control"
                                 placeholder="Search..."
@@ -112,7 +112,7 @@
                                 </a>
                             </span>
                         </div>
-                    </form>
+                    </form> -->
                     <!-- start mobile menu -->
                     <a class="menu-toggler responsive-toggler"
                         data-bs-toggle="collapse"
@@ -127,12 +127,7 @@
                                         data-feather="maximize"></i></a></li>
                             <!-- start language menu -->
                             <li class="dropdown language-switch">
-                                <a class="dropdown-toggle"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"> <img
-                                        src="../assets/img/flags/gb.png"
-                                        class="position-left" alt=""> English
-                                </a>
+                                <!-- <   -->
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a class="deutsch"><img
@@ -576,11 +571,14 @@
                 <div class="page-container">
                     <!-- start sidebar menu -->
                     <div class="sidebar-container">
-                        <div class="sidemenu-container navbar-collapse collapse
-                            fixed-menu" style="width: 100%; overflow: scroll; height: 100%;">
+                        <div class="sidemenu-container 
+                            fixed-menu" style="width: 100%;
+                            overflow-y: scroll;
+                            height: 100%;
+                            overflow-x: hidden;">
                             <div class="class_zzz">
                                 <div id="remove-scroll" class="left-sidemenu pb-5">
-                                    <div style="position: sticky; top: 20px;"> 
+                                    <div class="navbar-collapse" style="position: sticky; top: 20px;"> 
                                         <ul class="sidemenu page-header-fixed"
                                         data-keep-expanded="false"
                                         data-auto-scroll="true"
@@ -615,35 +613,10 @@
                                                 <i data-feather="airplay"></i>
                                                 <span class="title">Dashboard</span>
                                                 <span class="selected"></span>
-                                                <span class="arrow open"></span>
                                             </a>
-                                            <ul class="sub-menu">
-                                                <li class="nav-item active">
-                                                    <a href="index.html"
-                                                        class="nav-link">
-                                                        <span class="title">Dashboard
-                                                            1</span>
-                                                        <span class="selected"></span>
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="dashboard2.html"
-                                                        class="nav-link">
-                                                        <span class="title">Dashboard
-                                                            2</span>
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="dashboard3.html"
-                                                        class="nav-link">
-                                                        <span class="title">Dashboard
-                                                            3</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="event.html" class="nav-link
+                                            <a href="#" class="nav-link
                                                 nav-toggle"> <i
                                                     data-feather="calendar"></i>
                                                 <span class="title">Event
@@ -654,11 +627,11 @@
                                             <a href="#" class="nav-link
                                                 nav-toggle"> <i
                                                     data-feather="user"></i>
-                                                <span class="title">Professors</span>
-                                                <span class="arrow"></span>
+                                                <span class="title">Applied Events</span>
+                                                <!-- <span class="arrow"></span> -->
                                             </a>
-                                            <ul class="sub-menu">
-                                                <li class="nav-item">
+                                            <!-- <ul class="sub-menu"> -->
+                                                <!-- <li class="nav-item">
                                                     <a
                                                         href="all_professors.html"
                                                         class="nav-link"> <span
@@ -672,8 +645,8 @@
                                                             class="title">Add
                                                             Professor</span>
                                                     </a>
-                                                </li>
-                                                <li class="nav-item">
+                                                </li> -->
+                                                <!-- <li class="nav-item">
                                                     <a
                                                         href="add_professor_bootstrap.html"
                                                         class="nav-link"> <span
@@ -696,8 +669,8 @@
                                                             class="title">About
                                                             Professor</span>
                                                     </a>
-                                                </li>
-                                            </ul>
+                                                </li> -->
+                                            <!-- </ul> -->
                                         </li>
                                         <!-- <li class="nav-item">
                                             <a href="#" class="nav-link
@@ -1088,7 +1061,7 @@
                                                 <span class="title">Widget</span>
                                             </a>
                                         </li> -->
-                                        <li class="nav-item">
+                                        <!-- <li
                                             <a href="#" class="nav-link
                                                 nav-toggle">
                                                 <i data-feather="copy"></i>
@@ -1645,31 +1618,35 @@
                                                         Item 3 </a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                     </div>
                                 </div>
-                                <div style="margin: 20px 10px; padding-bottom: 100px;">
+                                <div style="margin: 20px 10px; padding-bottom: 30px;">
                                     <div class="page-bar">
                                         <div class="page-title-breadcrumb">
                                             <!-- <div class="pull-left"> -->
                                                 <div class="d-flex" style="align-items: center;">Dashboard</div>
                                             <!-- </div>  -->
                                             <div style="display:flex; justify-content: center; align-items: center; ">
-                                                <select class="form-select form-select-sm" aria-label=".form-select-sm example" style="padding: 0.15rem ; height: 40px; ">
-                                                    <option selected>Open this select menu</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                  </select>
+                                                <!-- <select class="form-select form-select-sm" aria-label=".form-select-sm example" style="padding: 0.15rem 0.30rem ; height: 40px; ">
+                                                    <option selected>Select Company</option>
+                                                    <option value="1">Webanix</option>
+                                                  </select> -->
+                                                  <!-- <div class=""> -->
+                                                    <select name="" class="form-select" style="height: 40px;">
+                                                     <option selected>Select Company</option>
+                                                    <option value="1">Webanix</option>
+                                                    </select>
+                                                <!-- </div> -->
                                             </div>
                                         </div>
                                     </div>
-                                    <section class="industries-area section-padding">
+                                    <section class="industries-area my-3">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-sm-12">
-                                                    <div class="section-title">
+                                                    <div class="section-title my-2">
                                                         <h6>Our Primary Services</h6>
                                                         <!-- <h2>Industries We Serve</h2> -->
                                                     </div>
@@ -1688,7 +1665,7 @@
                                                         </div>
                                                         <div class="industries-flip-box-back">
                                                             <div class="inner">
-                                                                <h3>Certificate of origin</h3>
+                                                                <!-- <h3>Certificate of origin</h3> -->
                                                                 <p>Lorem ipsum dolor sit amet,
                                                                     consectetur adipiscing elit, sed
                                                                     do eiusmod tempor dolore
@@ -1711,7 +1688,7 @@
                                                         </div>
                                                         <div class="industries-flip-box-back">
                                                             <div class="inner">
-                                                                <h3>Business Visa</h3>
+                                                                <!-- <h3>Business Visa</h3> -->
                                                                 <p>Lorem ipsum dolor sit amet,
                                                                     consectetur adipiscing elit, sed
                                                                     do eiusmod tempor dolore
@@ -1722,7 +1699,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4 col-md-6">
+                                                <div class="col-lg-4 col-md-6 pr-0">
                                                     <div class="industries-flip-single-item">
                                                         <div class="industries-flip-box-front">
                                                             <div class="inner">
@@ -1734,7 +1711,7 @@
                                                         </div>
                                                         <div class="industries-flip-box-back">
                                                             <div class="inner">
-                                                                <h3>Document Attestation</h3>
+                                                                <!-- <h3>Document Attestation</h3> -->
                                                                 <p>Lorem ipsum dolor sit amet,
                                                                     consectetur adipiscing elit, sed
                                                                     do eiusmod tempor dolore
@@ -1748,20 +1725,74 @@
                                             </div>
                                         </div>
                                     </section>
-                                    <div class="row">
-                                        <div class="col-7">
-                                            <section>
-                                                <!-- <div class="row">
-                                                    <div class="col-lg-6 offset-lg-3 col-md-8
-                                                        offset-md-2 col-sm-12"> -->
+
+                                    <div class="row mt-5">
+                                        <div class="col-lg-4 col-sm-12">
+                                            <section style="border: 1px solid #deebfd; box-shadow: 8px 12px 18px 0 #dadee8; border-radius: 10px;">
                                                         <div class="section-title m-4">
-                                                            <div class="">
-                                                                <h6>Get a free Consultancy</h6>
+                                                            <div class="col-lg-12">
+                                                                <h6>Raise a Ticket</h6>
                                                             </div>
-                                                            <p>Please submit your inquiry details for a
+                                                            <!-- <p>Please submit your inquiry details for a
                                                                 free consultation call and proposal. We
                                                                 review every
-                                                                inquiry and respond promptly.</p>
+                                                                inquiry and respond promptly.</p> -->
+                                                        </div>
+                                                    <!-- </div>
+                                                </div> -->
+                                                <div class="row">
+                                                    <div class="col-lg-10 offset-lg-1 col-md-12">
+                                                        <div class="contact-form">
+                                                            <form id="contact-form" class="form"
+                                                                action="mail.php" method="POST">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6 col-md-12">
+                                                                        <div class="form-group">
+                                                                            <input type="text"
+                                                                                name="Issue-Type " id="Issue-Type "
+                                                                                class="form-control"
+                                                                                required
+                                                                                placeholder="Issue Type">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6 col-md-12">
+                                                                        <div class="form-group">
+                                                                           <select name="" class="form-select" style="height: 40px;">
+                                                                            <option value="" class="form-control">Select Area</option>
+                                                                            <option value="" class="form-control">Madri Industrial Area</option>
+                                                                            <option value="" class="form-control">Madri Industrial Area</option>
+                                                                           </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-12 col-md-12">
+                                                                        <div class="form-group">
+                                                                            <textarea name="message"
+                                                                                class="form-control"
+                                                                                id="message" cols="2"
+                                                                                rows="2"
+                                                                                required
+                                                                                placeholder="Your Message"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-12 col-md-12 text-center">
+                                                                        <button type="submit" class="btn
+                                                                            btn-primary">Send Message</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section style="margin-top: 34px; border: 1px solid #deebfd; box-shadow: 8px 12px 18px 0 #dadee8; border-radius: 10px;">
+                                                        <div class="section-title my-3">
+                                                            <div class="col-lg-12">
+                                                                <h6>Book a facility</h6>
+                                                            </div>
+                                                            <!-- <p>Please submit your inquiry details for a
+                                                                free consultation call and proposal. We
+                                                                review every
+                                                                inquiry and respond promptly.</p> -->
                                                         </div>
                                                     <!-- </div>
                                                 </div> -->
@@ -1774,54 +1805,31 @@
                                                                 <div class="row">
                                                                     <div class="col-lg-6 col-md-12">
                                                                         <div class="form-group">
-                                                                            <input type="text"
-                                                                                name="name" id="name"
+                                                                            <input type="date"
+                                                                                name="Issue-Type " id="Issue-Type "
                                                                                 class="form-control"
                                                                                 required
-                                                                                placeholder="Your Name">
+                                                                                placeholder="Issue Type">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-6 col-md-12">
                                                                         <div class="form-group">
-                                                                            <input type="email"
-                                                                                name="email" id="email"
-                                                                                class="form-control"
-                                                                                required
-                                                                                placeholder="Your Email">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-md-12">
-                                                                        <div class="form-group">
-                                                                            <input type="text"
-                                                                                name="phone" id="phone"
-                                                                                required
-                                                                                class="form-control"
-                                                                                placeholder="Your Phone">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-md-12">
-                                                                        <div class="form-group">
-                                                                            <input type="text"
-                                                                                name="subject"
-                                                                                id="subject"
-                                                                                class="form-control"
-                                                                                required
-                                                                                placeholder="Your Subject">
+                                                                           <select name="" class="form-select" style="height: 40px;">
+                                                                            <option value="" class="form-control">Select Area</option>
+                                                                            <option value="" class="form-control">Madri Industrial Area</option>
+                                                                            <option value="" class="form-control">Madri Industrial Area</option>
+                                                                           </select>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-12 col-md-12">
-                                                                        <div class="form-group">
-                                                                            <textarea name="message"
-                                                                                class="form-control"
-                                                                                id="message" cols="30"
-                                                                                rows="6"
-                                                                                required
-                                                                                placeholder="Your Message"></textarea>
-                                                                        </div>
+                                                                      <label for="">Additional requirement : </label><br>
+
+                                                                      <input type="checkbox"> <span>Breakfast</span><br>
+                                                                      <input type="checkbox"> <span>Lunch</span><br>
+                                                                      <input type="checkbox"> <span>Dinner</span><br>
                                                                     </div>
-                                                                    <div class="col-lg-12 col-md-12">
-                                                                        <button type="submit" class="btn
-                                                                            btn-primary">Send Message</button>
+                                                                    <div class="col-lg-12 col-md-12 text-center">
+                                                                        <button type="submit" class="btn btn-primary">Send Message</button>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -1831,7 +1839,87 @@
                                             </section>
                                         </div>
 
-                                        <div class="col-5">
+                                        <div class="col-lg-4 col-sm-12">
+                                            <div class="card-box">
+                                                <div class="card-head text-center">
+                                                    <div class="section-title m-3">
+                                                        <h6>Government Notification</h6>
+                                                    </div>
+                                                    <!-- <button id="feedMenu" class="mdl-button mdl-js-button mdl-button--icon
+                                                        pull-right"
+                                                        data-upgraded=",MaterialButton">
+                                                        <i class="material-icons">more_vert</i>
+                                                    </button> -->
+                                                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu
+                                                        mdl-js-ripple-effect"
+                                                        data-mdl-for="feedMenu">
+                                                        <li class="mdl-menu__item"><i class="material-icons">assistant_photo</i>Action
+                                                        </li>
+                                                        <li class="mdl-menu__item"><i class="material-icons">print</i>Another
+                                                            action
+                                                        </li>
+                                                        <li class="mdl-menu__item"><i class="material-icons">favorite</i>Something
+                                                            else
+                                                            here</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="card-body">
+                                                    <ul class="feedBody">
+                                                        <li class="active-feed">
+                                                            <div class="feed-user-img">
+                                                                <img src="https://ucciudaipur.com/wp-content/uploads/2022/05/Seminar-on-Workplace-Safety-1080x675.png"
+                                                                    class="img-radius" alt="User-Profile-Image">
+                                                            </div>
+                                                            <!-- <h6> -->
+                                                            <!-- <span class="feedLblStyle lblFileStyle">File</span> Sarah Smith -->
+                                                            <small
+                                                                class="text-muted"> Wednesday, 11th May 2022, 3:00PM to 5:30 PM</small>
+                                                            <!-- </h6> -->
+                                                            <p class="m-b-15 mt-2">
+                                                                Seminar on Workplace Safety [11th May 2022]
+                                                            </p>
+                                                        </li>
+                                                        <li class="diactive-feed mt-2">
+                                                            <div class="feed-user-img">
+                                                                <img src="https://ucciudaipur.com/wp-content/uploads/2022/05/Solar-Seminar-960x720.jpeg"
+                                                                    class="img-radius" alt="User-Profile-Image">
+                                                            </div>
+                                                            <!-- <h6> -->
+                                                            <small class="text-muted">Wednesday, 11th May 2022, 3:00PM to 5:30 PM</small>
+                                                            <!-- </h6> -->
+                                                            <p class="m-b-15 m-t-15">
+                                                                Solar Rooftop Conference [7th May 2022]
+                                                            </p>
+                                                        </li>
+                                                        <li class="diactive-feed mt-2">
+                                                            <div class="feed-user-img">
+                                                                <img src="https://ucciudaipur.com/wp-content/uploads/2022/03/Excellence-Awards-2022-Invite-1333x750.png"
+                                                                    class="img-radius" alt="User-Profile-Image">
+                                                            </div>
+                                                            <h6>
+                                                                <small class="text-muted">Tuesday, 15th March 2022 at 10:00 AM</small>
+                                                            </h6>
+                                                            <p class="m-b-15 mt-2">
+                                                                UCCI Excellence Awards 2022 [15.03.2022]
+                                                            </p>
+                                                        </li>
+                                                        <li class="diactive-feed mt-2">
+                                                            <div class="feed-user-img">
+                                                                <img src="https://ucciudaipur.com/wp-content/uploads/2022/03/Excellence-Awards-2022-Invite-1333x750.png"
+                                                                    class="img-radius" alt="User-Profile-Image">
+                                                            </div>
+                                                            <h6>
+                                                                <small class="text-muted">Tuesday, 15th March 2022 at 10:00 AM</small>
+                                                            </h6>
+                                                            <p class="m-b-15 m-t-15">
+                                                                UCCI Excellence Awards 2022 [15.03.2022]
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-12">
                                             <div class="card-box">
                                                 <div class="card-head">
                                                     <div class="section-title m-3"  style="width: 100%;">
@@ -1859,8 +1947,7 @@
                                                     <ul class="feedBody">
                                                         <li class="active-feed">
                                                             <div class="feed-user-img">
-                                                                <img
-                                                                    src="https://ucciudaipur.com/wp-content/uploads/2022/05/Seminar-on-Workplace-Safety-1080x675.png"
+                                                                <img src="https://ucciudaipur.com/wp-content/uploads/2022/05/Seminar-on-Workplace-Safety-1080x675.png"
                                                                     class="img-radius" alt="User-Profile-Image">
                                                             </div>
                                                             <!-- <h6> -->
@@ -1875,13 +1962,11 @@
                                                         </li>
                                                         <li class="diactive-feed">
                                                             <div class="feed-user-img">
-                                                                <img
-                                                                    src="https://ucciudaipur.com/wp-content/uploads/2022/05/Solar-Seminar-960x720.jpeg"
+                                                                <img src="https://ucciudaipur.com/wp-content/uploads/2022/05/Solar-Seminar-960x720.jpeg"
                                                                     class="img-radius" alt="User-Profile-Image">
                                                             </div>
                                                             <!-- <h6> -->
-                                                            <small
-                                                                class="text-muted">Wednesday, 11th May 2022, 3:00PM to 5:30 PM</small>
+                                                            <small class="text-muted">Wednesday, 11th May 2022, 3:00PM to 5:30 PM</small>
                                                             <!-- </h6> -->
                                                             <p class="m-b-15 m-t-15">
                                                                 Solar Rooftop Conference [7th May 2022]
@@ -1890,8 +1975,7 @@
                                                         </li>
                                                         <li class="diactive-feed">
                                                             <div class="feed-user-img">
-                                                                <img
-                                                                    src="https://ucciudaipur.com/wp-content/uploads/2022/03/Excellence-Awards-2022-Invite-1333x750.png"
+                                                                <img src="https://ucciudaipur.com/wp-content/uploads/2022/03/Excellence-Awards-2022-Invite-1333x750.png"
                                                                     class="img-radius" alt="User-Profile-Image">
                                                             </div>
                                                             <h6>
@@ -1902,59 +1986,206 @@
                                                             </p>
                                                             <span class="feedLblStyle lblCommentStyle">Apply Now</span>
                                                         </li>
-                                                        <li class="active-feed">
+                                                        <!-- <li class="diactive-feed">
                                                             <div class="feed-user-img">
-                                                                <img
-                                                                    src="https://ucciudaipur.com/wp-content/uploads/2022/02/Seminar-on-Plastics.png"
+                                                                <img src="https://ucciudaipur.com/wp-content/uploads/2022/03/Excellence-Awards-2022-Invite-1333x750.png"
                                                                     class="img-radius" alt="User-Profile-Image">
                                                             </div>
                                                             <h6>
-                                                                <small class="text-muted">7 hours ago</small>
+                                                                <small class="text-muted">Tuesday, 15th March 2022 at 10:00 AM</small>
                                                             </h6>
                                                             <p class="m-b-15 m-t-15">
-                                                                Seminar on Alternatives and Legal Framework in India on Plastics
-                                                                and Electronic Waste Management
+                                                                UCCI Excellence Awards 2022 [15.03.2022]
                                                             </p>
                                                             <span class="feedLblStyle lblCommentStyle">Apply Now</span>
-                                                        </li>
-                                                        <li class="active-feed">
-                                                            <div class="feed-user-img">
-                                                                <img
-                                                                    src="https://ucciudaipur.com/wp-content/uploads/2022/02/cover.jpg"
-                                                                    class="img-radius" alt="User-Profile-Image">
-                                                            </div>
-                                                            <h6>
-                                                                <!-- <span class="feedLblStyle lblFileStyle">File</span> Sarah Smith -->
-                                                                <small
-                                                                    class="text-muted"> Wednesday, 2nd March 2022</small>
-                                                            </h6>
-                                                            <p class="m-b-15 m-t-15">
-                                                                Visit of Shree Amogh Lila Prabhu
-                                                            </p>
-                                                            <span class="feedLblStyle lblCommentStyle">Apply Now</span>
-                                                        </li>
-                                                        <li class="diactive-feed">
-                                                            <div class="feed-user-img">
-                                                                <img
-                                                                    src="https://ucciudaipur.com/wp-content/uploads/2022/02/Nikhil-Desai-Flyer-877x720.png"
-                                                                    class="img-radius" alt="User-Profile-Image">
-                                                            </div>
-                                                            <h6>
-                                                                <!-- <span class="feedLblStyle lblTaskStyle">Task </span> Jalpa Joshi -->
-                                                                <small
-                                                                    class="text-muted">Wednesday, 2nd March 2022</small>
-                                                            </h6>
-                                                            <p class="m-b-15 m-t-15">
-                                                                Programme on “How to grow your Small business to Large”
-                                                            </p>
-                                                            <span class="feedLblStyle lblCommentStyle">Apply Now</span>
-                                                        </li>
+                                                        </li> -->
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
+                                    <div class="row mt-3">
+                                        <div class="col-md-12 col-sm-12">
+                                            <div class="card card-box">
+                                                <div class="card-head">
+                                                    <header>Applied Events</header>
+                                                    <!-- <div class="tools">
+                                                        <a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
+                                                        <a class="t-collapse btn-color fa fa-chevron-down"
+                                                            href="javascript:;"></a>
+                                                        <a class="t-close btn-color fa fa-times" href="javascript:;"></a>
+                                                    </div> -->
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="table-wrap">
+                                                        <div class="table-responsive">
+                                                            <table class="table display product-overview mb-10"
+                                                                id="support_table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>No</th>
+                                                                        <th>Name of Event</th>
+                                                                        <!-- <th>Assigned Professor</th> -->
+                                                                        <th>Date Of Event</th>
+                                                                        <th>Fees</th>
+                                                                        <!-- <th>Branch</th>
+                                                                        <th>Edit</th> -->
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td>Jens Brincker</td>
+                                                                        <!-- <td>Kenny Josh</td> -->
+                                                                        <td>27/05/2016</td>
+                                                                        <td>
+                                                                            <span class="label label-sm label-success">paid</span>
+                                                                        </td>
+                                                                        <!-- <td>Mechanical</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="tblEditBtn">
+                                                                                <i class="fa fa-pencil"></i>
+                                                                            </a>
+                                                                            <a href="javascript:void(0)" class="tblDelBtn">
+                                                                                <i class="fa fa-trash-o"></i>
+                                                                            </a>
+                                                                        </td> -->
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>2</td>
+                                                                        <td>Mark Hay</td>
+                                                                        <!-- <td> Mark</td> -->
+                                                                        <td>26/05/2017</td>
+                                                                        <td>
+                                                                            <span class="label label-sm label-warning">unpaid
+                                                                            </span>
+                                                                        </td>
+                                                                        <!-- <td>Science</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="tblEditBtn">
+                                                                                <i class="fa fa-pencil"></i>
+                                                                            </a>
+                                                                            <a href="javascript:void(0)" class="tblDelBtn">
+                                                                                <i class="fa fa-trash-o"></i>
+                                                                            </a>
+                                                                        </td> -->
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>3</td>
+                                                                        <td>Anthony Davie</td>
+                                                                        <!-- <td>Cinnabar</td> -->
+                                                                        <td>21/05/2016</td>
+                                                                        <td>
+                                                                            <span class="label label-sm label-success">paid</span>
+                                                                        </td>
+                                                                        <!-- <td>Commerce</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="tblEditBtn">
+                                                                                <i class="fa fa-pencil"></i>
+                                                                            </a>
+                                                                            <a href="javascript:void(0)" class="tblDelBtn">
+                                                                                <i class="fa fa-trash-o"></i>
+                                                                            </a>
+                                                                        </td> -->
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>4</td>
+                                                                        <td>David Perry</td>
+                                                                        <!-- <td>Felix </td> -->
+                                                                        <td>20/04/2016</td>
+                                                                        <td>
+                                                                            <span class="label label-sm label-danger">unpaid</span>
+                                                                        </td>
+                                                                        <!-- <td>Mechanical</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="tblEditBtn">
+                                                                                <i class="fa fa-pencil"></i>
+                                                                            </a>
+                                                                            <a href="javascript:void(0)" class="tblDelBtn">
+                                                                                <i class="fa fa-trash-o"></i>
+                                                                            </a>
+                                                                        </td> -->
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>5</td>
+                                                                        <td>Anthony Davie</td>
+                                                                        <!-- <td>Beryl</td> -->
+                                                                        <td>24/05/2016</td>
+                                                                        <td>
+                                                                            <span class="label label-sm label-success">paid</span>
+                                                                        </td>
+                                                                        <!-- <td>M.B.A.</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="tblEditBtn">
+                                                                                <i class="fa fa-pencil"></i>
+                                                                            </a>
+                                                                            <a href="javascript:void(0)" class="tblDelBtn">
+                                                                                <i class="fa fa-trash-o"></i>
+                                                                            </a>
+                                                                        </td> -->
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>6</td>
+                                                                        <td>Alan Gilchrist</td>
+                                                                        <!-- <td>Joshep</td> -->
+                                                                        <td>22/05/2016</td>
+                                                                        <td>
+                                                                            <span class="label label-sm label-warning">unpaid</span>
+                                                                        </td>
+                                                                        <!-- <td>Science</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="tblEditBtn">
+                                                                                <i class="fa fa-pencil"></i>
+                                                                            </a>
+                                                                            <a href="javascript:void(0)" class="tblDelBtn">
+                                                                                <i class="fa fa-trash-o"></i>
+                                                                            </a>
+                                                                        </td> -->
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>7</td>
+                                                                        <td>Mark Hay</td>
+                                                                        <!-- <td>Jayesh</td> -->
+                                                                        <td>18/06/2016</td>
+                                                                        <td>
+                                                                            <span class="label label-sm label-success">paid</span>
+                                                                        </td>
+                                                                        <!-- <td>Commerce</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="tblEditBtn">
+                                                                                <i class="fa fa-pencil"></i>
+                                                                            </a>
+                                                                            <a href="javascript:void(0)" class="tblDelBtn">
+                                                                                <i class="fa fa-trash-o"></i>
+                                                                            </a> -->
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>8</td>
+                                                                        <td>Sue Woodger</td>
+                                                                        <!-- <td>Sharma</td> -->
+                                                                        <td>17/05/2016</td>
+                                                                        <td>
+                                                                            <span class="label label-sm label-danger">unpaid</span>
+                                                                        </td>
+                                                                        <!-- <td>Mechanical</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="tblEditBtn">
+                                                                                <i class="fa fa-pencil"></i>
+                                                                            </a>
+                                                                            <a href="javascript:void(0)" class="tblDelBtn">
+                                                                                <i class="fa fa-trash-o"></i>
+                                                                            </a>
+                                                                        </td> -->
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
